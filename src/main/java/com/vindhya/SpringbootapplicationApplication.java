@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
 public class SpringbootapplicationApplication {
 
 	 Logger logger = LoggerFactory.getLogger(SpringbootapplicationApplication.class);
-	@RequestMapping("/")
+	@RequestMapping("/hello")
     String hello() {
 		logger.trace("A TRACE Message");
         logger.debug("A DEBUG Message");
